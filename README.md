@@ -4,7 +4,7 @@
 
 ![image](https://github.com/PZXforXcode/PZXLiveMessageControl/blob/master/弹幕.gif)
 
-`      
+     
 //使用方法
 导入PZXLiveMessage文件夹 和 PureLayout文件夹（用于布局，如果自己有其他布局方式可以不要PureLayout）
 PZXDYCommentsCell.m59行用到了PureLayout autolayout布局 可以替换成自己的
@@ -12,7 +12,7 @@ PZXDYCommentsCell.m59行用到了PureLayout autolayout布局 可以替换成自�
     [self.contentLabel autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:margin];
     [self.contentLabel autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:margin];
     [self.contentLabel autoPinEdge:ALEdgeRight toEdge:ALEdgeLeft ofView:self.tipImageView withOffset:-margin];
-
+```
 #import "PZXLiveMessageView.h"
 
 - (void)viewDidLoad {
@@ -29,7 +29,7 @@ PZXDYCommentsCell.m59行用到了PureLayout autolayout布局 可以替换成自�
     [self MockAddDataWithView:liveMsgView];
     
 }
-
+```
 -(void)MockAddDataWithView:(PZXLiveMessageView *)liveMsgView{
     
     
@@ -47,7 +47,7 @@ PZXDYCommentsCell.m59行用到了PureLayout autolayout布局 可以替换成自�
     });
     
 }
-
+```
     
 //具体见demo
-    `
+ 
