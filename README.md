@@ -8,10 +8,12 @@
 //使用方法
 导入PZXLiveMessage文件夹 和 PureLayout文件夹（用于布局，如果自己有其他布局方式可以不要PureLayout）
 PZXDYCommentsCell.m59行用到了PureLayout autolayout布局 可以替换成自己的
+```
     [self.contentLabel autoPinEdge:ALEdgeLeft toEdge:ALEdgeRight ofView:self.nickNameLabel withOffset:margin];
     [self.contentLabel autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:margin];
     [self.contentLabel autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:margin];
     [self.contentLabel autoPinEdge:ALEdgeRight toEdge:ALEdgeLeft ofView:self.tipImageView withOffset:-margin];
+```
 ```
 #import "PZXLiveMessageView.h"
 
